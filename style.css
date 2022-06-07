@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.background {
+  background-image: url(https://i.ibb.co/RPKGNNy/shutterstock-2117997056.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: 50%;
+  background-size: cover;
+  animation: shake 5s linear forwards infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: scale(1.001);
+  }
+
+  2.5% {
+    transform: scale(1.003);
+  }
+
+  5% {
+    transform: scale(1.004) translateY(0.2%);
+  }
+  10% {
+    transform: scale(1.002) translateY(-0.08%);
+  }
+  15% {
+    transform: scale(1.002) translateX(0.07%);
+  }
+  20% {
+    transform: scale(1.003) translateY(0.1%);
+  }
+  25% {
+    transform: scale(1.003) translateX(0.12%);
+  }
+  30% {
+    transform: scale(1.003) translateY(-0.1%);
+  }
+  35% {
+    transform: scale(1.002) translateX(-0.06%);
+    /* filter: contrast(1);
+    filter: brightness(1); */
+  }
+  40% {
+    transform: scale(1.001) translateY(0.06%);
+    /* filter: contrast(1.15);
+    filter: brightness(1.15); */
+  }
+  45% {
+    transform: scale(1.003) translateX(-0.12%);
+    /* filter: contrast(1);
+    filter: brightness(1); */
+  }
+  50% {
+    transform: scale(1.002) translateY(0.06%);
+  }
+  55% {
+    transform: scale(1.002) translateY(-0.05%);
+  }
+  60% {
+    transform: scale(1.002) translateY(0.06%);
+  }
+  65% {
+    transform: scale(1.003) translateX(0.17);
+  }
+  70% {
+    transform: scale(1.004) translateY(-0.16%);
+  }
+  75% {
+    transform: scale(1.002) translateX(-0.07%);
+  }
+  80% {
+    transform: scale(1.003) translateY(0.13%);
+  }
+  85% {
+    transform: scale(1.002) translateX(0.06);
+  }
+  90% {
+    transform: scale(1.004) translateY(-0.18%);
+  }
+  95% {
+    transform: scale(1.002) translateX(0.07%);
+  }
+  100% {
+    transform: scale(1.001) translateY(-0.03%);
+  }
+}
