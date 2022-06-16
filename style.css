@@ -55,8 +55,8 @@ body {
   }
   40% {
     transform: scale(1.001) translateY(0.06%);
-    /* filter: contrast(1.15);
-    filter: brightness(1.15); */
+    /* filter: contrast(1.20);
+    filter: brightness(1.20); */
   }
   45% {
     transform: scale(1.003) translateX(-0.12%);
