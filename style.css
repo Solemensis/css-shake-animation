@@ -18,7 +18,7 @@ body {
   height: 100vh;
   background-position: 50%;
   background-size: cover;
-  animation: shake 5s linear forwards infinite alternate;
+  animation: shake 7s linear forwards infinite alternate;
 }
 
 @keyframes shake {
